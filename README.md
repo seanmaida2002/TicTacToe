@@ -10,6 +10,7 @@ This is a simple Tic-Tac-Toe game built using Java and JavaFX. It features a UI 
 - Disables clicked cells to prevent replays
 
 ## Project Struture
+```text
 ticTacToe/
 ├── GameBoard.java        # Handles the UI and board state
 ├── GameController.java   # Contains game logic and turn handling
