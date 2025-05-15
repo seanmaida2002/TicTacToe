@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class GameController {
 	private GameBoard gameBoard;
-//	private AIPlayer aiPlayer;
+
 	private boolean playerTurn = true;
 	
 	
@@ -42,10 +42,7 @@ public class GameController {
 		playerTurn = false;
 		
 		aiMove();
-		
-//		Platform.runLater(() -> {
-//			aiMove();
-//		});
+
 		
 	}
 	
@@ -63,13 +60,7 @@ public class GameController {
 				randomNumber = random.nextInt(8 - 0 + 1) + 0;
 			}
 		}
-//		for(int i = 0; i < 9; i++) {
-//			if(gameBoard.isCellEmpty(randomNumber)) {
-//				gameBoard.markCell(i, "O");
-//				playerTurn = true;
-//				break;
-//			}
-//		}
+
 		boolean win = checkWin("O");
 		if(win) {
 			return;
