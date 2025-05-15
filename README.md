@@ -2,7 +2,7 @@
 
 This is a simple Tic-Tac-Toe game built using Java and JavaFX. It features a UI and a basic AI opponent. The game logic handles player turns, win detection, and draw conditions. 
 
-<img src="images/start.jpg" alt="start screen" width="400"> <img src="images/win.jpg" alt="win screen" width="400">
+<img src="images/start.jpg" alt="start screen" width="800"> <img src="images/win.jpg" alt="win screen" width="800">
 
 ## Features
 - 3x3 game boarding using JavaFX ``` GridPane ```
