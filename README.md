@@ -15,7 +15,8 @@ ticTacToe/
 ├── GameBoard.java        # Handles the UI and board state
 ├── GameController.java   # Contains game logic and turn handling
 ├── Main.java             # Entry point that sets up the scene
-└── ...```
+└── ...
+```
 
 ## How To Play
 - The game starts with the player (X)
